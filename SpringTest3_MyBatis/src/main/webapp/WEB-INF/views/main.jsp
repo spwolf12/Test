@@ -34,6 +34,7 @@ Kakao.API.request({
 				<a href="${pageContext.request.contextPath }/write.bo">글쓰기</a>
 				<a href="${pageContext.request.contextPath }/list.bo">글목록</a>
 				<a href="send-message?recipientId='cnsdn1246@naver.com'&message=메시지보내기">메세지 보내기</a>
+				<h1>수정</h1>
 		</h3>
 	</article>
 </body>
