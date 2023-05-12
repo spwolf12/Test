@@ -18,6 +18,7 @@ public class KakaoController {
     
     @GetMapping("/send-message")
     public ModelAndView sendMessage(@RequestParam("recipientId") String recipientId, @RequestParam("message") String message) {
+    	System.out.println("여기는 오나?");
         try {
             kakaoApiService.sendMessage(recipientId, message);
             ModelAndView modelAndView = new ModelAndView("main");

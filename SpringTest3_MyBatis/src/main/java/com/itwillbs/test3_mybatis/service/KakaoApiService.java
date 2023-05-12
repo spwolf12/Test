@@ -62,9 +62,10 @@ public class KakaoApiService {
     }
     
     public void sendMessage(String recipientId, String message) throws IOException {
-        String accessToken = "YOUR_ACCESS_TOKEN";
+        String accessToken = "Ny3FTEEnQVQKzmpsr6wRfgXVZJiQrp1XSObVZkL_sHlgvm-iWRXTGOwB3r3rImjORbu4iQopyV8AAAGIDUFojw";
 
-        String url = "https://kapi.kakao.com/v2/api/talk/memo/default/send";
+//        String url = "https://kapi.kakao.com/v2/api/talk/memo/default/send";
+        String url = "/v2/api/talk/memo/default/send";
 
         HttpClient client = HttpClients.createDefault();
         HttpPost post = new HttpPost(url);

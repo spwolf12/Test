@@ -34,6 +34,11 @@ public class MyBatisController {
 		
 		return "main";
 	}
+	@GetMapping(value = "/Newfile")
+	public String Newfile() {
+		
+		return "Newfile";
+	}
 	
 //	@RequestMapping(value = "/login.me", method = {RequestMethod.GET, RequestMethod.POST})
 //	public String loginForm() {
